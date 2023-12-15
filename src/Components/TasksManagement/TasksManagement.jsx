@@ -68,7 +68,7 @@ const TasksManagement = ({ task, index, deleteTask, editTask, tasks }) => {
 
           <div className="deleteBtn">
             <button title="Delete" onClick={() => deleteTask(index)}>
-              <MdDelete />
+            <MdDelete />
             </button>
           </div>
         </div>
