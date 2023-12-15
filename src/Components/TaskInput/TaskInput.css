@@ -1,0 +1,49 @@
+
+.taskTitle{
+    border-bottom: 3px solid rgb(136, 133, 133);
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.workManagement{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ .tasksManagement {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+form {
+    color: blue;
+}
+
+.addTaskInput[type="text"]  {
+    border: none;
+    outline: none;
+    padding: 15px 10px;
+    width: 300px;
+    box-shadow: 2px 2px 3px blue;
+    margin: 20px 13px;
+    font-size: 18px;
+    border-radius: 2px 20px 2px 2px;
+    background: B9B4C7;
+    color: gray;
+}
+
+
+.TaskAddBtn {
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 3px;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 20px 2px 2px 2px;
+    background: B9B4C7;
+    color: blueviolet;
+}
